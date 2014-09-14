@@ -1,0 +1,165 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>火鸟字幕合并器SubindexV0.4</title>
+</head>
+
+<body>
+
+<p align="center"><b><font size="5">火鸟字幕合并器SubindexV0.4 </font></b></p>
+<p align="right"><a href="readmetc.htm">繁体显示</a> <a target="_blank" href="http://blog.csdn.net/redbirdli">作者主页</a> 
+<a target="_blank" href="http://blog.csdn.net/redbirdli/archive/2006/03/08/618485.aspx">工具首页</a> 下载: 
+<a href="SubindSC.rar">简体中文版</a> <a href="SubindTC.rar">繁体中文版</a> 英文版</p>
+<p align="center">　</p>
+<p>　</p>
+<p><b><a href="#功能介绍:">功能介绍</a><br>
+<br>
+<a href="#适用类型:">适用类型</a><br>
+<br>
+<a href="#运行环境:">运行环境</a><br>
+<br>
+<a href="#常见问答:">常见问答</a><br>
+<br>
+<a href="#版本历史:">版本历史</a><br>
+<br>
+<a href="#作者声明:">作者声明</a><br>
+　</b></p>
+<p><b><a name="功能介绍:">功能介绍:</a></b></p>
+<p>1.合并相同片源不同语种的srt/ssa/ass文本字幕,生成可同时播放的双语字幕(中英文字幕);</p>
+<p>2.合并CD1/CD2形式多字幕文件为单一的完整字幕,用以播放未分割版的电影文件;</p>
+<p>3.拆分未分割版的单个字幕为CD1/CD2多文件形式,用以播放分割版的电影文件;</p>
+<p>4.内置提供ssa/ass转换为srt字幕格式/单字幕文件索引/修整并行等功能;</p>
+<p>5.提供字幕与影片发音不同步时的时间线纠偏微调功能;</p>
+<p>6.程序支持多语言版本,目前支持简体中文版/繁体中文版/英文版;</p>
+<p>　</p>
+<p><b><a name="适用类型:">适用类型:</a></b></p>
+<p>支持的字幕格式:可读取和生成srt/ssa/ass三种格式,供支持的播放模式进行播放;</p>
+<p>支持的播放模式:通过Vobsub外挂加载srt/ssa/ass三种类型的字幕文件，观看avi/vob格式的电影;</p>
+<p>不适用于已经嵌入字幕的avi电影(勉强也可以播放,但效果不佳),也不适用于RM/RMVB等内嵌字幕的文件格式;</p>
+<p>　</p>
+<p><b><a name="运行环境:">运行环境:</a></b></p>
+<p>Microsoft&reg; Windows98/WindowsME/Windows2000/WindowsXP/Windows2003或以上操作系统</p>
+<p>Microsoft&reg; .NET Framework V1.1</p>
+<p>Microsoft&reg; .NET Framework 1.1 版可再发行组件包官方下载地址：<font face="Tahoma"><br>
+</font>
+<a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=262d25e3-f589-4842-8157-034d1e7cf3a3&DisplayLang=zh-cn">
+http://www.microsoft.com/downloads/...splayLang=zh-cn</a></p>
+<p>　</p>
+<p><b><a name="常见问答:">常见问答:</a></b></p>
+<p><b><a href="#1">1.怎样制作可以同屏播放的中英文双语字幕(怎么合并同一影片的两个语言的字幕)?</a></b></p>
+<p><b><a href="#2">2.如何将两个CD1/CD2形式的字幕合并成一个完整的字幕文件(用CD1/CD2两个字幕创建单文件影片字幕)？</a></b></p>
+<p><b><a href="#3">3.如何将完整影片的一个字幕文件制作成CD1/CD2多文件形式?</a></b></p>
+<p><b><a href="#4">4.如何修正电影字幕和影片发音错位不同步等问题?</a></b></p>
+<p><b><a href="#5">5.合并两轨字幕时的两个字幕时间不匹配或字幕和声音错位怎么调整?</a></b></p>
+<p><b><a href="#6">6.怎样将ssa/ass格式字幕转换为srt格式?</a></b></p>
+<p><b><a href="#7">7.旧版中提供的字幕并行功能哪里去了?(什么是字幕自动并行?)</a></b></p>
+<p><b><a href="#8">8.合并字幕功能提供哪几种方式?有什么区别?</a></b></p>
+<p><b><a href="#9">9.为什么下载此软件后,运行程序失败?</a></b></p>
+<p><b><br>
+<a name="1">1.怎样制作可以同屏播放的中英文双语字幕(怎么合并同一影片的两个语言的字幕)?</a></b></p>
+<p>a)进入合并-&gt;分别打开两个同片源的双语字幕,如:</p>
+<p>b)在左边合并缓冲区<span lang="en">1</span>打开The.Matrix.CD1.EN,在中间合并缓冲区<span lang="en-us">2</span>打开The.Matrix.CD1.CN</p>
+<p>c)默认为采用&quot;按时间&quot;的合并方式,如果两个文件匹配,正确的合并结果已经出现在合并目标区</p>
+<p>d)点击保存,将合并后的字幕保存成新的字幕文件,播放影片时,加载该字幕即可观看双语字幕影片</p>
+<p>　</p>
+<p><b><a name="2">2.如何将两个CD1/CD2形式的字幕合并成一个完整的字幕文件(在字幕为CD1/CD2形式,创建单文件影片字幕)？</a></b></p>
+<p>a)进入合并-&gt;分别打开两个同片源的字幕,如:</p>
+<p>b)在左边合并缓冲区<span lang="en">1</span>打开如The.Matrix.CD1.EN,在中间合并缓冲区<span lang="en-us">2</span>打开如The.Matrix.CD2.EN</p>
+<p>c)更改&quot;合并方式&quot;为&quot;串行合并&quot;后,合并目标区中CD2的部分自动追加到CD2字幕内容的尾部,并叠加了CD1的字幕时间</p>
+<p>d)如有需要,可以对CD2字幕做适当的&quot;微调纠偏&quot;,以调整追加后的时间,保存文件即生成CD1/CD2叠加后的完整字幕</p>
+<p>　</p>
+<p><b><a name="3">3.如何将完整影片的一个字幕文件制作成CD1/CD2多文件形式?</a></b></p>
+<p>a)进入构建-&gt;打开需要调整时间的字幕文件(如The.Matrix.EN)后字幕内容显示原始文件内容区和构建缓冲区</p>
+<p>b)打开增强选项后,可见&quot;构建区块&quot;的范围默认为字幕文件的开始和结束位置,调整&quot;构建区块&quot;的开始和结束位置</p>
+<p>c)提取CD2时(如The.Matrix.CD2.EN)时,需要设置字幕的&quot;微调纠偏&quot;选项为负数的CD1最后的播放时间</p>
+<p>d)调整成适合影片播放的部分后,保存文件(如The.Matrix.CD1.EN或The.Matrix.CD2.EN)</p>
+<p>　</p>
+<p><b><a name="4">4.如何修正电影字幕和影片发音错位不同步等问题?</a></b></p>
+<p>a)进入构建-&gt;打开需要调整时间的字幕文件后字幕内容显示在左边的原始文件内容区和右边的构建缓冲区</p>
+<p>b)在&quot;微调纠偏&quot;中增加或减少一定的时间量,右边构建缓冲区中的时间轨随之增减,达到满意效果后保存文件</p>
+<p>c)如一次微调后未达到满意效果,可对比左边的原始文件内容并继续第二步的操作,或打开增强选项进一步调整</p>
+<p>　</p>
+<p><b><a name="5">5.合并两轨字幕时的两个字幕时间不匹配或字幕和声音错位怎么调整?</a></b></p>
+<p>a)加载要合并的两个字幕至合并缓冲区，打开增强选项</p>
+<p>b)分别调整两个字幕的&quot;微调纠偏&quot;选项，使两个字幕时间轨趋同</p>
+<p>c)另外，也可以通过调整&quot;混编偏差&quot;来混合两个有差异的时间轨</p>
+<p>注:c项仅适用于按时间的合并方式</p>
+<p>　</p>
+<p><b><a name="6">6.怎样将ssa/ass格式字幕转换为srt格式?</a></b></p>
+<p>a)在构建中打开文件时,选择ssa或ass文件类型,打开后就可直接保存为srt文件</p>
+<p>注:在选项中选取&quot;保留ASS/SSA原始显示格式&quot;时,ssa/ass文件的格式化显示标记将被保留</p>
+<p>　</p>
+<p><b><a name="7">7.旧版中提供的字幕并行功能哪里去了?(什么是字幕自动并行?)</a></b></p>
+<p>a)在V0.3以前的版本中,提供了用于将字幕文件中一句台词文字多于一行时的字幕并行功能</p>
+<p>b)目前此功能已经变成一个字幕选项,只要在&quot;选项&quot;中选中&quot;字幕自动并行&quot;,并设置期望的并行分割符</p>
+<p>c)在&quot;构建&quot;中打开需要并行的字幕,直接保存即可</p>
+<p>　</p>
+<p><b><a name="8">8.合并字幕功能提供哪几种方式?有什么区别?</a></b></p>
+<p>a)合并字幕提供按时间\按区块\串行合并三种方式</p>
+<p>b)按时间方式为两个字幕文件按照字幕文件中的播放时间进行比对混合(可以在任何同片源不同语种的两个字幕间使用)</p>
+<p>c)按区块方式为两个字幕文件按照字幕文件中字幕的排列区块进行混合(建议只在区块完全相同的两个字幕间使用)</p>
+<p>d)串行合并不同于以上两种形式,较适合于将同片源同语种的CD1/CD2两个文件进行拼接,合并后形成独立完整的一个字幕</p>
+<p><br>
+<b>
+<a name="9">9.为什么下载此软件后,运行程序失败?</a></b></p>
+<p>a)请检查确认是否已经安装Microsoft&reg; .NET Framework V1.1,如未安装请从<a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=262d25e3-f589-4842-8157-034d1e7cf3a3&DisplayLang=zh-cn">微软网站下载</a></p>
+<p>　</p>
+<p><b><a name="版本历史:">版本历史:</a></b></p>
+<p><b>V0.4 Build2006.3.8</b><br>
+<br>
+1.代码全部重写,彻底解决个别不规范文件解析失败的问题</p>
+<p>2.增加时间校准微调功能,解决字幕与影片不匹配问题<br>
+<br>
+3.增加构建区块功能,可实现单个字幕文件拆分为两个文件<br>
+<br>
+4.增加两轨字幕串行合并功能,可将两个文件拼合为单个完整字幕<br>
+<br>
+5.实现Srt/Ssa/Ass三种文件类型的直接打开<br>
+<br>
+6.为构建和合并提供共享缓冲区/起始索引号/字幕并行/区块独立/交换字幕等灵活选项</p>
+<p><font color="#FF0000">2006.2.13-2006.3.1x</font></p>
+<p><font color="#FF0000">这段思愁苦痛的日夜</font></p>
+<p><font color="#FF0000">错过了与爱人相伴相依的一段时光</font></p>
+<p><font color="#FF0000">散尽千金仍能追逐，青丝华年却终难再觅</font></p>
+<p><font color="#FF0000">不求东成西就,闻达显贵</font></p>
+<p><font color="#FF0000">但愿鸳鸯蝴蝶,朝朝暮暮,与心爱的人长相厮守！</font></p>
+<p><font color="#FF0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+2006.3.8于广州钟落潭封闭中——火鸟</font></p>
+<p><br>
+<b>V0.3 Build2004.6.9</b><br>
+<br>
+1.完整支持Ssa to Srt的字幕格式转换功能<br>
+<br>
+2.支持文件拖放处理</p>
+<p><br>
+<b>V0.2 Build2004.5.1</b><br>
+<br>
+1.增加了Ass to Srt的字幕格式转换功能</p>
+<p><br>
+<b>V0.1a Build2004.3.18</b><br>
+<br>
+1.将一个字幕文件中的一个时间块下的多行字幕进行单行合并<br>
+<br>
+2.将两个字幕文件按照时间/编号/区块合并成单一的双轨文件</p>
+<p>　</p>
+
+<p><b><a name="作者声明:">作者声明:</a></b></p>
+<p>1.本软件为免费软件，仅供非赢利传播，未经授权不得进行赢利性传播，如有需要，可与作者联系</p>
+<p>2.作者保留对此软件的升级\发布\声明及其它一切权利,反编译或破解此软件将被视为侵犯作者版权的行为</p>
+<p>3.本软件为作者在业余时间无偿开发的免费软件,作者不对此软件提供技术支持服务</p>
+<p>4.如在使用中有任何建议或意见问题,请访问作者Blog: </p>
+<p><a href="http://linnet.126.com/">
+http://linnet.126.com/</a>&nbsp;&nbsp; <a href="http://blog.csdn.net/redbirdli">
+http://blog.csdn.net/redbirdli</a> </p>
+<p align="right">　</p>
+<p align="right">　</p>
+<p align="right">请随时访问: <a href="http://linnet.126.com/">
+http://linnet.126.com</a>&nbsp; <a href="http://blog.csdn.net/redbirdli">
+http://blog.csdn.net/redbirdli</a> 查找更新版本</p>
+<p align="right">身陷炼狱火 心翔涅槃鸟 ----火鸟作品</p>
+
+</body>
+
+</html>

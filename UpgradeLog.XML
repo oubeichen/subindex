@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Subindex">
+</Property><Property Name="解决方案文件" Value="D:\bak\D\linnet\old\Subind\Subindex\Subindex.sln">
+</Property><Property Name="用户选项文件" Value="D:\bak\D\linnet\old\Subind\Subindex\Subindex.suo">
+</Property><Property Name="Date" Value="2010年4月30日">
+</Property><Property Name="Time" Value="16:07">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Subindex.sln" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Subindex.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Subindex.suo" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Subindex.suo">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Subindex.csproj" Description="项目文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Subindex.csproj">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Subindex.csproj.user" Description="项目用户文件成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Subindex.csproj.user">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="AppSettings.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\AppSettings.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="AssemblyInfo.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Caption.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Caption.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="CaptionMerge.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\CaptionMerge.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="CaptionParser.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\CaptionParser.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="DragDropAgent.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\DragDropAgent.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="DropDownButton.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\DropDownButton.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="ExtendException.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\ExtendException.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Pub.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Pub.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Section.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Section.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Subindex.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Subindex.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="TimeBaseLine.cs" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\TimeBaseLine.cs">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="App.config" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\App.config">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="DropDownButton.resx" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\DropDownButton.resx">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Subindex.resx" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\Subindex.resx">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="TimeBaseLine.resx" Description="文件已成功备份为 D:\bak\D\linnet\old\Subind\Subindex\Backup\TimeBaseLine.resx">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Subindex.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Subindex" Source="Subindex.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Subindex.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Subindex.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Subindex" Source="Subindex.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
