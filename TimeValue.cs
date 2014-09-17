@@ -1,4 +1,4 @@
-using System;
+锘縰sing System;
 
 namespace Subindex
 {
@@ -10,7 +10,7 @@ namespace Subindex
 		public TimeValue()
 		{
 			// 
-			// TODO: 在此处添加构造函数逻辑
+			// TODO: 鍦ㄦ澶勬坊鍔犳瀯閫犲嚱鏁伴�昏緫
 			//
 		}
 

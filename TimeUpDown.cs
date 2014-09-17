@@ -1,16 +1,16 @@
-using System;
+ï»¿using System;
 
 namespace Subindex
 {
 	/// <summary>
-	/// TimeUpDown µÄÕªÒªËµÃ÷¡£
+	/// TimeUpDown çš„æ‘˜è¦è¯´æ˜ã€‚
 	/// </summary>
 	public class TimeUpDown
 	{
 		public TimeUpDown()
 		{
 			//
-			// TODO: ÔÚ´Ë´¦Ìí¼Ó¹¹Ôìº¯ÊıÂß¼­
+			// TODO: åœ¨æ­¤å¤„æ·»åŠ æ„é€ å‡½æ•°é€»è¾‘
 			//
 		}
 	}

@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -12,7 +12,7 @@ namespace Subindex
 
 
 	/// <summary>
-	/// ´øÏÂÀ­²Ëµ¥µÄButton¿Ø¼ş¡£
+	/// å¸¦ä¸‹æ‹‰èœå•çš„Buttonæ§ä»¶ã€‚
 	/// </summary>
 
 	[DefaultEvent("Click")]
@@ -26,18 +26,18 @@ namespace Subindex
 		private System.Windows.Forms.MenuItem selfItem;
 
 		/// <summary> 
-		/// ±ØĞèµÄÉè¼ÆÆ÷±äÁ¿¡£
+		/// å¿…éœ€çš„è®¾è®¡å™¨å˜é‡ã€‚
 		/// </summary>
 		private System.ComponentModel.Container components = null;
 		public DropDownButton()
 		{
-			// ¸Ãµ÷ÓÃÊÇ Windows.Forms ´°ÌåÉè¼ÆÆ÷Ëù±ØĞèµÄ¡£
+			// è¯¥è°ƒç”¨æ˜¯ Windows.Forms çª—ä½“è®¾è®¡å™¨æ‰€å¿…éœ€çš„ã€‚
 			InitializeComponent();
-			// TODO: ÔÚ InitializeComponent µ÷ÓÃºóÌí¼ÓÈÎºÎ³õÊ¼»¯
+			// TODO: åœ¨ InitializeComponent è°ƒç”¨åæ·»åŠ ä»»ä½•åˆå§‹åŒ–
 		}
 
 		/// <summary> 
-		/// ÇåÀíËùÓĞÕıÔÚÊ¹ÓÃµÄ×ÊÔ´¡£
+		/// æ¸…ç†æ‰€æœ‰æ­£åœ¨ä½¿ç”¨çš„èµ„æºã€‚
 		/// </summary>
 		protected override void Dispose( bool disposing )
 		{
@@ -51,10 +51,10 @@ namespace Subindex
 			base.Dispose( disposing );
 		}
 
-		#region ×é¼şÉè¼ÆÆ÷Éú³ÉµÄ´úÂë
+		#region ç»„ä»¶è®¾è®¡å™¨ç”Ÿæˆçš„ä»£ç 
 		/// <summary> 
-		/// Éè¼ÆÆ÷Ö§³ÖËùĞèµÄ·½·¨ - ²»ÒªÊ¹ÓÃ´úÂë±à¼­Æ÷ 
-		/// ĞŞ¸Ä´Ë·½·¨µÄÄÚÈİ¡£
+		/// è®¾è®¡å™¨æ”¯æŒæ‰€éœ€çš„æ–¹æ³• - ä¸è¦ä½¿ç”¨ä»£ç ç¼–è¾‘å™¨ 
+		/// ä¿®æ”¹æ­¤æ–¹æ³•çš„å†…å®¹ã€‚
 		/// </summary>
 		private void InitializeComponent()
 		{
@@ -220,7 +220,7 @@ namespace Subindex
 
 
 
-		public class DropDownClickEventArgs : EventArgs //1.×Ô¶¨ÒåÊÂ¼ş²ÎÊı
+		public class DropDownClickEventArgs : EventArgs //1.è‡ªå®šä¹‰äº‹ä»¶å‚æ•°
 		{
 			private	MenuItem item;
 			public DropDownClickEventArgs(MenuItem Item)
@@ -228,12 +228,12 @@ namespace Subindex
 			public MenuItem ClickItem 
 			{  get{return item;} }
 		}
-		public delegate void DropDownClickEventHandler(object sender, DropDownClickEventArgs e);//2.×Ô¶¨Òå²ÎÊıµÄ×Ô¶¨ÒåÎ¯ÍĞ
+		public delegate void DropDownClickEventHandler(object sender, DropDownClickEventArgs e);//2.è‡ªå®šä¹‰å‚æ•°çš„è‡ªå®šä¹‰å§”æ‰˜
 
         [Description("when Menu DropDown"), Category("Action")]
-		public event DropDownClickEventHandler DropDownClick;//3.×Ô¶¨ÒåÎ¯ÍĞDropDownClickEventHandlerÀàµÄÊÂ¼şÊµÀı
+		public event DropDownClickEventHandler DropDownClick;//3.è‡ªå®šä¹‰å§”æ‰˜DropDownClickEventHandlerç±»çš„äº‹ä»¶å®ä¾‹
 
-		protected virtual void OnDropDownClick(System.Object sender, System.EventArgs e) //4.Òı·¢ÊÂ¼şµÄ¹ı³Ì
+		protected virtual void OnDropDownClick(System.Object sender, System.EventArgs e) //4.å¼•å‘äº‹ä»¶çš„è¿‡ç¨‹
 		{
 			MenuItem mi=sender as MenuItem;
 			SetDefaultItem(mi,true);
@@ -241,10 +241,10 @@ namespace Subindex
 		}
 
 
-//		[Description("ÓÃ»§Ñ¡ÔñÏÂÀ­²Ëµ¥Ê±·¢Éú"),Category("Action")]
+//		[Description("ç”¨æˆ·é€‰æ‹©ä¸‹æ‹‰èœå•æ—¶å‘ç”Ÿ"),Category("Action")]
 
-//		public event EventHandler DropDownClick;//1.ÉùÃ÷Í¨ÓÃÎ¯ÍĞÀàĞÍµÄÊÂ¼şÊµÀı
-//		protected virtual void OnDropDownClick(System.Object sender, System.EventArgs e) //2.Òı·¢ÊÂ¼şµÄ¹ı³Ì
+//		public event EventHandler DropDownClick;//1.å£°æ˜é€šç”¨å§”æ‰˜ç±»å‹çš„äº‹ä»¶å®ä¾‹
+//		protected virtual void OnDropDownClick(System.Object sender, System.EventArgs e) //2.å¼•å‘äº‹ä»¶çš„è¿‡ç¨‹
 //		{
 //			SetDefaultItem(sender as MenuItem,true);
 //			if (DropDownClick != null) DropDownClick(sender, e);
@@ -253,7 +253,7 @@ namespace Subindex
 
 
 		/// <summary> 
-		/// ·µ»Ø»òÉèÖÃµ±Ç°¶ÔÏóµÄÎÄ±¾¡£
+		/// è¿”å›æˆ–è®¾ç½®å½“å‰å¯¹è±¡çš„æ–‡æœ¬ã€‚
 		/// </summary>
 		/// 
 

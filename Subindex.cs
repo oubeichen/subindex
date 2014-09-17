@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Drawing;
 using System.Collections;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.IO;
 namespace Subindex
 {
 	/// <summary>
-	/// Form1 µÄÕªÒªËµÃ÷¡£
+	/// Form1 çš„æ‘˜è¦è¯´æ˜ã€‚
 	/// </summary>
 	public class Subind : System.Windows.Forms.Form
 	{
@@ -127,7 +127,7 @@ namespace Subindex
 		public Subind(string[] args)
 		{
 			//
-			// Windows ´°ÌåÉè¼ÆÆ÷Ö§³ÖËù±ØĞèµÄ
+			// Windows çª—ä½“è®¾è®¡å™¨æ”¯æŒæ‰€å¿…éœ€çš„
 			//
 			InitializeComponent();
 			if (args.Length==0) return;
@@ -136,12 +136,12 @@ namespace Subindex
 
 
 			//
-			// TODO: ÔÚ InitializeComponent µ÷ÓÃºóÌí¼ÓÈÎºÎ¹¹Ôìº¯Êı´úÂë
+			// TODO: åœ¨ InitializeComponent è°ƒç”¨åæ·»åŠ ä»»ä½•æ„é€ å‡½æ•°ä»£ç 
 			//
 		}
 
 		/// <summary>
-		/// ÇåÀíËùÓĞÕıÔÚÊ¹ÓÃµÄ×ÊÔ´¡£
+		/// æ¸…ç†æ‰€æœ‰æ­£åœ¨ä½¿ç”¨çš„èµ„æºã€‚
 		/// </summary>
 		protected override void Dispose( bool disposing )
 		{
@@ -155,10 +155,10 @@ namespace Subindex
 			base.Dispose( disposing );
 		}
 
-		#region Windows ´°ÌåÉè¼ÆÆ÷Éú³ÉµÄ´úÂë
+		#region Windows çª—ä½“è®¾è®¡å™¨ç”Ÿæˆçš„ä»£ç 
 		/// <summary>
-		/// Éè¼ÆÆ÷Ö§³ÖËùĞèµÄ·½·¨ - ²»ÒªÊ¹ÓÃ´úÂë±à¼­Æ÷ĞŞ¸Ä
-		/// ´Ë·½·¨µÄÄÚÈİ¡£
+		/// è®¾è®¡å™¨æ”¯æŒæ‰€éœ€çš„æ–¹æ³• - ä¸è¦ä½¿ç”¨ä»£ç ç¼–è¾‘å™¨ä¿®æ”¹
+		/// æ­¤æ–¹æ³•çš„å†…å®¹ã€‚
 		/// </summary>
 		private void InitializeComponent()
 		{
@@ -1277,7 +1277,7 @@ namespace Subindex
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(136, 23);
             this.label1.TabIndex = 49;
-            this.label1.Text = "ºÁÃë·Ö¸î·û:";
+            this.label1.Text = "æ¯«ç§’åˆ†å‰²ç¬¦:";
             this.label1.Visible = false;
             // 
             // tabBatch
@@ -1306,7 +1306,7 @@ namespace Subindex
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 12);
             this.label5.TabIndex = 8;
-            this.label5.Text = "¹²0¸öÎÄ¼ş";
+            this.label5.Text = "å…±0ä¸ªæ–‡ä»¶";
             // 
             // Batchfinish
             // 
@@ -1315,7 +1315,7 @@ namespace Subindex
             this.Batchfinish.Name = "Batchfinish";
             this.Batchfinish.Size = new System.Drawing.Size(59, 12);
             this.Batchfinish.TabIndex = 7;
-            this.Batchfinish.Text = "ºÏ²¢Íê³É!";
+            this.Batchfinish.Text = "åˆå¹¶å®Œæˆ!";
             this.Batchfinish.Visible = false;
             // 
             // merges1
@@ -1343,7 +1343,7 @@ namespace Subindex
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
-            this.button2.Text = "´ò¿ª";
+            this.button2.Text = "æ‰“å¼€";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -1354,7 +1354,7 @@ namespace Subindex
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Ö´ĞĞ";
+            this.button1.Text = "æ‰§è¡Œ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -1373,7 +1373,7 @@ namespace Subindex
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(467, 24);
             this.label3.TabIndex = 0;
-            this.label3.Text = "ÇëÈ·¶¨Ä¿Â¼ÏÂĞèÒªºÏ²¢µÄÎÄ¼şÃû·Ö±ğÎª***.chs.srtºÍ***.eng.srt£¨***ÎªÈÎÒâÎÄ¼şÃû£©\r\nºÏ²¢½á¹û½«±£´æÎª²»´øchs»òÕßengµÄsrtÎÄ¼ş";
+            this.label3.Text = "è¯·ç¡®å®šç›®å½•ä¸‹éœ€è¦åˆå¹¶çš„æ–‡ä»¶ååˆ†åˆ«ä¸º***.chs.srtå’Œ***.eng.srtï¼ˆ***ä¸ºä»»æ„æ–‡ä»¶åï¼‰\r\nåˆå¹¶ç»“æœå°†ä¿å­˜ä¸ºä¸å¸¦chsæˆ–è€…engçš„srtæ–‡ä»¶";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // tabAbout
@@ -1492,7 +1492,7 @@ namespace Subindex
 		#endregion
 
 		/// <summary>
-		/// Ó¦ÓÃ³ÌĞòµÄÖ÷Èë¿Úµã¡£
+		/// åº”ç”¨ç¨‹åºçš„ä¸»å…¥å£ç‚¹ã€‚
 		/// </summary>
 		[STAThread]
 		static void Main(string[] args) 
@@ -2036,7 +2036,7 @@ namespace Subindex
             System.Data.DataTable ddt1 = GetFileList(fbd.SelectedPath,FileList);
             merges1.DataSource = ddt1; //merges1.DisplayMember = "FileName";
             merges1.DisplayMember = "FileName";
-            label5.Text = "¹²" + FileList.Count + "¸öÎÄ¼ş";
+            label5.Text = "å…±" + FileList.Count + "ä¸ªæ–‡ä»¶";
             textBox1.Text = fbd.SelectedPath;
             if (textBox1.Text!= "") button1.Enabled = true;
         }
@@ -2054,37 +2054,37 @@ namespace Subindex
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="strDir">Ö¸¶¨Â·¾¶</param>
-        /// <param name="strFilePattern">ÒªÓëstrDir ÖĞµÄÎÄ¼şÃûÆ¥ÅäµÄËÑË÷×Ö·û´®</param>
-        /// <param name="arrDirs">²éÑ¯µÃµ½µÄËùÓĞÄ¿Â¼ArrayList</param>
-        /// <param name="arrFiles">²éÑ¯µÃµ½µÄËùÓĞÎÄ¼şÃû³ÆArrayList</param>
-        /// <param name="bIsRecursive">ÊÇ·ñµİ¹é²éÑ¯</param>
+        /// <param name="strDir">æŒ‡å®šè·¯å¾„</param>
+        /// <param name="strFilePattern">è¦ä¸strDir ä¸­çš„æ–‡ä»¶ååŒ¹é…çš„æœç´¢å­—ç¬¦ä¸²</param>
+        /// <param name="arrDirs">æŸ¥è¯¢å¾—åˆ°çš„æ‰€æœ‰ç›®å½•ArrayList</param>
+        /// <param name="arrFiles">æŸ¥è¯¢å¾—åˆ°çš„æ‰€æœ‰æ–‡ä»¶åç§°ArrayList</param>
+        /// <param name="bIsRecursive">æ˜¯å¦é€’å½’æŸ¥è¯¢</param>
         private System.Data.DataTable GetFileList(string strDir,ArrayList arrFiles)
         {
             
             if (string.IsNullOrEmpty(strDir)||(!Directory.Exists(strDir)))
-            {¡¡ // ²ÎÊıÕıÈ·ĞÔ¼ì²é
+            {ã€€ // å‚æ•°æ­£ç¡®æ€§æ£€æŸ¥
                 return dt;
             }
 
             dt.Clear();
             arrFiles.Clear();
-            //ÇåÀí¹¤×÷Íê±Ï
+            //æ¸…ç†å·¥ä½œå®Œæ¯•
             try
             {
-                // È¡µÃÖ¸¶¨Â·¾¶ÏÂËùÓĞ·ûºÏÌõ¼şµÄÎÄ¼ş
+                // å–å¾—æŒ‡å®šè·¯å¾„ä¸‹æ‰€æœ‰ç¬¦åˆæ¡ä»¶çš„æ–‡ä»¶
                 string[] strFiles = Directory.GetFiles(strDir, "*.chs.srt");
 
                 foreach (string name in strFiles)
-                {¡¡ // ½«ËùÓĞÎÄ¼şÃû³Æ¼ÓÈë½á¹ûArrayListÖĞ
+                {ã€€ // å°†æ‰€æœ‰æ–‡ä»¶åç§°åŠ å…¥ç»“æœArrayListä¸­
                     string engname = name.Substring(0,name.Length-7)+"eng.srt";
                     if (File.Exists(engname))
                     {
                         DataRow dr = dt.NewRow();
                         arrFiles.Add(name);
                         string strFileName = GetFileName(name);
-                        dr[FileName] = strFileName;//Ìí¼Óµ½ÎÄ¼şÃû³Æ£ºÁĞ
-                        dr[FileDirectory] = GetDirectory(name);//Ìí¼Óµ½ÎÄ¼şÄ¿Â¼£ºÁĞ
+                        dr[FileName] = strFileName;//æ·»åŠ åˆ°æ–‡ä»¶åç§°ï¼šåˆ—
+                        dr[FileDirectory] = GetDirectory(name);//æ·»åŠ åˆ°æ–‡ä»¶ç›®å½•ï¼šåˆ—
                         dt.Rows.Add(dr);
                     }
                 }
@@ -2093,12 +2093,12 @@ namespace Subindex
             }
             catch (Exception e)
             {
-                MessageBox.Show("±¨´í" + e.Message);
+                MessageBox.Show("æŠ¥é”™" + e.Message);
             }
             return dt;
         }
         /// <summary>
-        /// »ñÈ¡ÎÄ¼şÃû³Æ
+        /// è·å–æ–‡ä»¶åç§°
         /// </summary>
         /// <param name="path"></param>
         /// <returns></returns>
@@ -2117,7 +2117,7 @@ namespace Subindex
         }
 
         /// <summary>
-        /// »ñÈ¡ÎÄ¼şÄ¿Â¼
+        /// è·å–æ–‡ä»¶ç›®å½•
         /// </summary>
         /// <param name="filename"></param>
         /// <returns></returns>
@@ -2133,7 +2133,7 @@ namespace Subindex
             foreach (string name in FileList)
             {   
                     cnt++;
-                    label5.Text = "¹²" + FileList.Count + "¸öÎÄ¼ş" + "   ÕıÔÚ´¦ÀíµÚ" + cnt + "¸ö";
+                    label5.Text = "å…±" + FileList.Count + "ä¸ªæ–‡ä»¶" + "   æ­£åœ¨å¤„ç†ç¬¬" + cnt + "ä¸ª";
                     string engname=name.Substring(0,name.Length-7)+"eng.srt";
                     string outname=name.Substring(0,name.Length-7)+"srt";
                     Caption ct = null;
@@ -2148,7 +2148,7 @@ namespace Subindex
                     Pub.SaveFile(capMerge.ToString(),outname,true);
                     
             }
-            label5.Text = "¹²" + FileList.Count + "¸öÎÄ¼ş";
+            label5.Text = "å…±" + FileList.Count + "ä¸ªæ–‡ä»¶";
             Batchfinish.Visible = true;
         }
 

@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 
 namespace Subindex
 {
@@ -11,10 +11,10 @@ namespace Subindex
 
 		public TimeUpDown()
 		{
-			// ¸Ãµ÷ÓÃÊÇ Windows.Forms ´°ÌåÉè¼ÆÆ÷Ëù±ØĞèµÄ¡£
+			// è¯¥è°ƒç”¨æ˜¯ Windows.Forms çª—ä½“è®¾è®¡å™¨æ‰€å¿…éœ€çš„ã€‚
 			InitializeComponent();
 
-			// TODO: ÔÚ InitComponent µ÷ÓÃºóÌí¼ÓÈÎºÎ³õÊ¼»¯
+			// TODO: åœ¨ InitComponent è°ƒç”¨åæ·»åŠ ä»»ä½•åˆå§‹åŒ–
 
 
 
@@ -22,7 +22,7 @@ namespace Subindex
 		}
 
 		/// <summary>
-		/// ÇåÀíËùÓĞÕıÔÚÊ¹ÓÃµÄ×ÊÔ´¡£
+		/// æ¸…ç†æ‰€æœ‰æ­£åœ¨ä½¿ç”¨çš„èµ„æºã€‚
 		/// </summary>
 		protected override void Dispose( bool disposing )
 		{
@@ -34,10 +34,10 @@ namespace Subindex
 			base.Dispose( disposing );
 		}
 
-		#region ×é¼şÉè¼ÆÆ÷Éú³ÉµÄ´úÂë
+		#region ç»„ä»¶è®¾è®¡å™¨ç”Ÿæˆçš„ä»£ç 
 		/// <summary>
-		/// Éè¼ÆÆ÷Ö§³ÖËùĞèµÄ·½·¨ - ²»ÒªÊ¹ÓÃ´úÂë±à¼­Æ÷ 
-		/// ĞŞ¸Ä´Ë·½·¨µÄÄÚÈİ¡£
+		/// è®¾è®¡å™¨æ”¯æŒæ‰€éœ€çš„æ–¹æ³• - ä¸è¦ä½¿ç”¨ä»£ç ç¼–è¾‘å™¨ 
+		/// ä¿®æ”¹æ­¤æ–¹æ³•çš„å†…å®¹ã€‚
 		/// </summary>
 		private void InitializeComponent()
 		{

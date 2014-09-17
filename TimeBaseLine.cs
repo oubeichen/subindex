@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace Subindex
 {
 	/// <summary>
-	/// TimeBaseLine µÄÕªÒªËµÃ÷¡£
+	/// TimeBaseLine çš„æ‘˜è¦è¯´æ˜ã€‚
 	/// </summary>
 	/// 	
 	[DefaultEvent("ValueChanged")]
@@ -23,26 +23,26 @@ namespace Subindex
 		private bool inputState;
 
 		/// <summary>
-		/// Êı¾İÖµÒÑ¸Ä±ä
+		/// æ•°æ®å€¼å·²æ”¹å˜
 		/// </summary>
 		public event EventHandler ValueChanged;
 
 		/// <summary> 
-		/// ±ØĞèµÄÉè¼ÆÆ÷±äÁ¿¡£
+		/// å¿…éœ€çš„è®¾è®¡å™¨å˜é‡ã€‚
 		/// </summary>
 		private System.ComponentModel.Container components = null;
 
 		public TimeBaseLine()
 		{
-			// ¸Ãµ÷ÓÃÊÇ Windows.Forms ´°ÌåÉè¼ÆÆ÷Ëù±ØĞèµÄ¡£
+			// è¯¥è°ƒç”¨æ˜¯ Windows.Forms çª—ä½“è®¾è®¡å™¨æ‰€å¿…éœ€çš„ã€‚
 			InitializeComponent();
 			valueBox.SelectionStart=15;
-			// TODO: ÔÚ InitializeComponent µ÷ÓÃºóÌí¼ÓÈÎºÎ³õÊ¼»¯
+			// TODO: åœ¨ InitializeComponent è°ƒç”¨åæ·»åŠ ä»»ä½•åˆå§‹åŒ–
 
 		}
 
 		/// <summary> 
-		/// ÇåÀíËùÓĞÕıÔÚÊ¹ÓÃµÄ×ÊÔ´¡£
+		/// æ¸…ç†æ‰€æœ‰æ­£åœ¨ä½¿ç”¨çš„èµ„æºã€‚
 		/// </summary>
 		protected override void Dispose( bool disposing )
 		{
@@ -56,10 +56,10 @@ namespace Subindex
 			base.Dispose( disposing );
 		}
 
-		#region ×é¼şÉè¼ÆÆ÷Éú³ÉµÄ´úÂë
+		#region ç»„ä»¶è®¾è®¡å™¨ç”Ÿæˆçš„ä»£ç 
 		/// <summary> 
-		/// Éè¼ÆÆ÷Ö§³ÖËùĞèµÄ·½·¨ - ²»ÒªÊ¹ÓÃ´úÂë±à¼­Æ÷ 
-		/// ĞŞ¸Ä´Ë·½·¨µÄÄÚÈİ¡£
+		/// è®¾è®¡å™¨æ”¯æŒæ‰€éœ€çš„æ–¹æ³• - ä¸è¦ä½¿ç”¨ä»£ç ç¼–è¾‘å™¨ 
+		/// ä¿®æ”¹æ­¤æ–¹æ³•çš„å†…å®¹ã€‚
 		/// </summary>
 		private void InitializeComponent()
 		{
@@ -103,7 +103,7 @@ namespace Subindex
 
 
 		/// <summary> 
-		/// ÉèÖÃ»ò·µ»ØÊ±¼ä»ùÏßÖµ
+		/// è®¾ç½®æˆ–è¿”å›æ—¶é—´åŸºçº¿å€¼
 		/// </summary>
 		public TimeSpan Value
 		{

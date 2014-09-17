@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Windows.Forms;
 namespace Subindex
 {
@@ -10,14 +10,14 @@ namespace Subindex
 		private DragDropAgent()
 		{
 			// 
-			// TODO: ÔÚ´Ë´¦Ìí¼Ó¹¹Ôìº¯ÊıÂß¼­
+			// TODO: åœ¨æ­¤å¤„æ·»åŠ æ„é€ å‡½æ•°é€»è¾‘
 			//
 		}
 
 		/// <summary>
-		/// µÃµ½Ò»¸ö°üº¬Ê×²ã¸¸¿Ø¼şµÄ¿Ø¼şµÄ¶ÔÏóÃû,Èçform1ÏÂgroupbox1ÖĞµÄtextbox1,½«·µ»Øform1.textbox1
+		/// å¾—åˆ°ä¸€ä¸ªåŒ…å«é¦–å±‚çˆ¶æ§ä»¶çš„æ§ä»¶çš„å¯¹è±¡å,å¦‚form1ä¸‹groupbox1ä¸­çš„textbox1,å°†è¿”å›form1.textbox1
 		/// </summary>
-		/// <param name="sender">Òª»ñµÃ¶ÔÏóÃûµÄ¿Ø¼şÊµÀı</param>
+		/// <param name="sender">è¦è·å¾—å¯¹è±¡åçš„æ§ä»¶å®ä¾‹</param>
 		/// <returns></returns>
 		public static string getFullName(Control sender)
 		{
@@ -28,11 +28,11 @@ namespace Subindex
 		}
 
 		/// <summary>
-		/// ÉèÖÃÖ¸¶¨GroupBox¿Ø¼şµÄÍÏ·Å²Ù×÷,¸ù¾İCanDragºÍCanDrop¾ö¶¨ÍÏ³ö/·ÅÈëµÄÖ§³Ö
+		/// è®¾ç½®æŒ‡å®šGroupBoxæ§ä»¶çš„æ‹–æ”¾æ“ä½œ,æ ¹æ®CanDragå’ŒCanDropå†³å®šæ‹–å‡º/æ”¾å…¥çš„æ”¯æŒ
 		/// </summary>
-		/// <param name="sender">ÒªÉèÖÃÍÏ·ÅÌØĞÔµÄGroupBox¶ÔÏó</param>
-		/// <param name="CanDrag">ÊÇ·ñ¿ÉÒÔÍÏ³ö</param>
-		/// <param name="CanDrop">ÊÇ·ñ¿ÉÒÔ·ÅÈë</param>
+		/// <param name="sender">è¦è®¾ç½®æ‹–æ”¾ç‰¹æ€§çš„GroupBoxå¯¹è±¡</param>
+		/// <param name="CanDrag">æ˜¯å¦å¯ä»¥æ‹–å‡º</param>
+		/// <param name="CanDrop">æ˜¯å¦å¯ä»¥æ”¾å…¥</param>
 		public static void DragDropHook(GroupBox sender,bool CanDrag,bool CanDrop)
 		{
 			if (CanDrag) DragHook(sender);
@@ -41,9 +41,9 @@ namespace Subindex
 		}
 
 		/// <summary>
-		/// ÉèÖÃÖ¸¶¨GroupBox¿Ø¼şµÄÍÏ·Å²Ù×÷,Í¬Ê±Ö§³ÖÍÏ³öºÍ·ÅÈë
+		/// è®¾ç½®æŒ‡å®šGroupBoxæ§ä»¶çš„æ‹–æ”¾æ“ä½œ,åŒæ—¶æ”¯æŒæ‹–å‡ºå’Œæ”¾å…¥
 		/// </summary>
-		/// <param name="sender">ÒªÉèÖÃÍÏ·ÅÌØĞÔµÄGroupBox¶ÔÏó</param>
+		/// <param name="sender">è¦è®¾ç½®æ‹–æ”¾ç‰¹æ€§çš„GroupBoxå¯¹è±¡</param>
 		public static void DragDropHook(GroupBox sender)
 		{
 			DragDropHook(sender,true,true);

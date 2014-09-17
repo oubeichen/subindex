@@ -1,4 +1,4 @@
-using System;
+锘縰sing System;
 using System.Collections;
 using System.Text;
 namespace Subindex
@@ -11,7 +11,7 @@ namespace Subindex
 		public Section()
 		{
 			// 
-			// TODO: 在此处添加构造函数逻辑
+			// TODO: 鍦ㄦ澶勬坊鍔犳瀯閫犲嚱鏁伴�昏緫
 			//
 		}
 
